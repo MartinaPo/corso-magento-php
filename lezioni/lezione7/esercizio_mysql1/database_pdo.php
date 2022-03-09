@@ -62,10 +62,8 @@ function leggiNews(){
 }
 
 function disconnetti(){
-    global $conn;
+    global $pdo;
     //close
-    if (! mysqli_close($conn)){
-        return false;
-    }
+    $pdo = null; 
     return true;
 }
