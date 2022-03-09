@@ -11,7 +11,7 @@ function connetti(){
     $username = "root";
     $password = "";
     $servername = "localhost";
-    $dbname = "testXX";
+    $dbname = "test";
 
     //stile procedurale
     //"sqlsrv:Server=YouAddress;Database=YourDatabase", "Username", "Password"
