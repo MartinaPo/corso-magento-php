@@ -1,0 +1,22 @@
+{
+    "name": "soluzione-software/php-sample",
+    "description": "progetto di esempio",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SoluzioneSoftware\\PhpSample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mauro",
+            "email": "mauro.casadei@soluzionesoftware.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/mailer": "5.4.x-dev",
+        "symfony/mime": "5.4.x-dev"
+    }
+}
